@@ -25,7 +25,10 @@ dependencyResolutionManagement {
             }
         }
         mavenCentral()
+        // Add this line for Coil 3 dependencies
+        maven("https://repo1.maven.org/maven2/") // [2]
     }
 }
 
 include(":composeApp")
+
