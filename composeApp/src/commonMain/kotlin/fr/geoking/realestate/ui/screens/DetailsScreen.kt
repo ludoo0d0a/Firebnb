@@ -1,4 +1,4 @@
-package com.firebnb.ui.screens
+package fr.geoking.realestate.ui.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.aspectRatio
@@ -23,8 +23,8 @@ import cafe.adriel.voyager.core.screen.rememberScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import coil3.compose.AsyncImage
-import com.firebnb.data.ListingRepositoryImpl
-import com.firebnb.presentation.viewmodel.DetailsViewModel
+import fr.geoking.realestate.data.ListingRepositoryImpl
+import fr.geoking.realestate.presentation.viewmodel.DetailsViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

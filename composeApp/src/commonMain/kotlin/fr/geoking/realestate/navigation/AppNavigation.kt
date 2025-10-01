@@ -1,14 +1,14 @@
-package com.firebnb.navigation
+package fr.geoking.realestate.navigation
 
 import androidx.compose.runtime.Composable
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.transitions.SlideTransition
 
-import com.firebnb.ui.screens.DetailsScreen
-import com.firebnb.ui.screens.FavoritesScreen
-import com.firebnb.ui.screens.HomeScreen
-import com.firebnb.ui.screens.ProfileScreen
+import fr.geoking.realestate.ui.screens.DetailsScreen
+import fr.geoking.realestate.ui.screens.FavoritesScreen
+import fr.geoking.realestate.ui.screens.HomeScreen
+import fr.geoking.realestate.ui.screens.ProfileScreen
 
 object FavoritesScreen : Screen {
     @Composable

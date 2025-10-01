@@ -1,7 +1,7 @@
-package com.firebnb
+package fr.geoking.realestate
 
 import androidx.compose.runtime.Composable
-import com.firebnb.navigation.AppNavigation
+import fr.geoking.realestate.navigation.AppNavigation
 
 @Composable
 fun App() {

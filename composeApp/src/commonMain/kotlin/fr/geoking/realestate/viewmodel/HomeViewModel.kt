@@ -1,9 +1,9 @@
-package com.firebnb.presentation.viewmodel
+package fr.geoking.realestate.presentation.viewmodel
 
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.coroutineScope
-import com.firebnb.data.ListingRepository
-import com.firebnb.model.Listing
+import fr.geoking.realestate.data.ListingRepository
+import fr.geoking.realestate.model.Listing
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch

@@ -1,6 +1,6 @@
-package com.firebnb.data
+package fr.geoking.realestate.data
 
-import com.firebnb.model.Listing
+import fr.geoking.realestate.model.Listing
 
 interface ListingRepository {
     suspend fun getListings(): List<Listing>

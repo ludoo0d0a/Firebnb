@@ -1,4 +1,4 @@
-package com.firebnb.ui.screens
+package fr.geoking.realestate.ui.screens
 
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -8,10 +8,10 @@ import androidx.compose.runtime.getValue
 import cafe.adriel.voyager.core.screen.rememberScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.firebnb.data.ListingRepositoryImpl
-import com.firebnb.navigation.DetailsScreen
-import com.firebnb.presentation.viewmodel.HomeViewModel
-import com.firebnb.ui.components.ListingItem
+import fr.geoking.realestate.data.ListingRepositoryImpl
+import fr.geoking.realestate.navigation.DetailsScreen
+import fr.geoking.realestate.presentation.viewmodel.HomeViewModel
+import fr.geoking.realestate.ui.components.ListingItem
 
 @Composable
 fun HomeScreen() {

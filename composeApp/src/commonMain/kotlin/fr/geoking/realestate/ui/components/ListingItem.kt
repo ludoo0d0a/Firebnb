@@ -1,4 +1,4 @@
-package com.firebnb.ui.components
+package fr.geoking.realestate.ui.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -15,7 +15,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import com.firebnb.model.Listing
+import fr.geoking.realestate.model.Listing
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.material.icons.Icons

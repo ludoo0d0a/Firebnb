@@ -1,7 +1,7 @@
-package com.firebnb.data
+package fr.geoking.realestate.data
 
-import com.firebnb.model.Listing
-import com.firebnb.model.User
+import fr.geoking.realestate.model.Listing
+import fr.geoking.realestate.model.User
 
 object MockData {
     private val users = listOf(

@@ -11,7 +11,7 @@ plugins {
 kotlin {
     androidTarget {
         compilerOptions {
-            jvmTarget.set(JvmTarget.JVM_11)
+            jvmTarget.set(JvmTarget.JVM_21)
         }
     }
     
@@ -26,12 +26,16 @@ kotlin {
     }
     
     sourceSets {
+
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
 
-            implementation(libs.coil.compose)
-            implementation(libs.coil.network.ktor)
+            implementation(libs.coil)
+            implementation(libs.coil.network.okhttp)
+
+            runtimeOnly("androidx.compose.ui:ui-tooling-preview:1.9.2")
+
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -46,7 +50,11 @@ kotlin {
             implementation(libs.voyager.navigator)
             implementation(libs.voyager.screenmodel)
             implementation(libs.voyager.transitions)
+            implementation(libs.voyager.kodein)
 
+            implementation(libs.coil.compose)
+
+            implementation(compose.materialIconsExtended)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -76,12 +84,14 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
+//    kotlinOptions {
+//        jvmTarget = "21"
+//    }
 }
 
 dependencies {
     debugImplementation(compose.uiTooling)
 }
-

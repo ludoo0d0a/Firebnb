@@ -17,13 +17,14 @@ pluginManagement {
 
 dependencyResolutionManagement {
     repositories {
-        google {
-            mavenContent {
-                includeGroupAndSubgroups("androidx")
-                includeGroupAndSubgroups("com.android")
-                includeGroupAndSubgroups("com.google")
-            }
-        }
+        google()
+//        {
+//            mavenContent {
+//                includeGroupAndSubgroups("androidx")
+//                includeGroupAndSubgroups("com.android")
+//                includeGroupAndSubgroups("com.google")
+//            }
+//        }
         mavenCentral()
         // Add this line for Coil 3 dependencies
         maven("https://repo1.maven.org/maven2/") // [2]

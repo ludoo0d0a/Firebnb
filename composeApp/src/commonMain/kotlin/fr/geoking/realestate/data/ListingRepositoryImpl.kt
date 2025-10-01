@@ -1,6 +1,6 @@
-package com.firebnb.data
+package fr.geoking.realestate.data
 
-import com.firebnb.model.Listing
+import fr.geoking.realestate.model.Listing
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

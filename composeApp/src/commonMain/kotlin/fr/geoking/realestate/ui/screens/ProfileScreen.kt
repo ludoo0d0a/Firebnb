@@ -1,4 +1,4 @@
-package com.firebnb.ui.screens
+package fr.geoking.realestate.ui.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,7 +9,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.firebnb.navigation.FavoritesScreen
+import fr.geoking.realestate.navigation.FavoritesScreen
 
 @Composable
 fun ProfileScreen() {

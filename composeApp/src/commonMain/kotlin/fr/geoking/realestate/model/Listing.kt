@@ -1,4 +1,4 @@
-package com.firebnb.model
+package fr.geoking.realestate.model
 
 data class Listing(
     val id: String,
